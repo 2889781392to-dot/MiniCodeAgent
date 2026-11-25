@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.dpapi
+*.key
+*.pem
+
+# Local workspaces and outputs
+/.mca-work/
+/.mca-sessions/
+/.minicodeagent/
+/.mca-runs/
+*.jsonl
+*.log
+
+# Private evaluation and handoff files
+/evaluation/
+/interview/
+/CODEX_REPORT.md
+/PERFORMANCE_*_AUDIT.*
+/PERFORMANCE_*_ABLATION*.md
